@@ -99,7 +99,7 @@ unsigned int convert_p(va_list args, buffer_t *output,
 	flags |= 32;
 	ret += convert_ubase(output, address, "0123456789abcdef",
 			flags, wid, prec);
-	ret+= print_neg_width(output, ret, flags, wid);
+	ret += print_neg_width(output, ret, flags, wid);
 
 	return (ret);
 }
