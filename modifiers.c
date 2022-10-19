@@ -3,7 +3,7 @@
  * Auth: Ddluwole and ADEWUMIADENIKE
  */
 
-#includde "main.h"
+#include "main.h"
 
 unsigned int print_width(buffer_t *output, unsigned int printed,
 		unsigned char flags, int wid);
